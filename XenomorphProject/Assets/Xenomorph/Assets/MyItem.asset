@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1284244208, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: MyItem
+  m_EditorClassIdentifier: 
+  deprecatedTier: 0
+  _itemTierDef: {fileID: 0}
+  nameToken: My Item
+  pickupToken: 
+  descriptionToken: 
+  loreToken: 
+  unlockableDef: {fileID: 0}
+  pickupModelPrefab: {fileID: 7798721995035321720, guid: c69d82ee0d72359409869dc682e6637b, type: 3}
+  pickupIconSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  isConsumed: 0
+  hidden: 0
+  canRemove: 1
+  tags: 03000000
+  requiredExpansion: {fileID: 11400000, guid: c886ac2d97c8de94faf292b4715b95f1, type: 2}
