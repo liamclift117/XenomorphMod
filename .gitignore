@@ -86,3 +86,7 @@ XenomorphProject/ThunderKit/
 SS2-Project/Packages/*
 !SS2-Project/Packages/packages-lock.json
 !SS2-Project/Packages/manifest.json
+
+*.*
+!.gitignore
+!*.meta

@@ -1,4 +1,6 @@
 using BepInEx;
+using BepInEx.Logging;
+using R2API.Utils;
 using System.IO;
 using UnityEngine;
 namespace Xenomorph
@@ -15,13 +17,18 @@ namespace Xenomorph
     [BepInDependency("com.bepis.r2api.skills")]
     [BepInDependency("com.bepis.r2api.proctype")]
     #endregion
+    [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.EveryoneNeedSameModVersion)]
     [BepInPlugin(GUID, MODNAME, VERSION)]
     public class XenomorphMain : BaseUnityPlugin
     {
         public const string GUID = "com.LiamClift.Xenomorph";
         public const string MODNAME = "Xenomorph";
-        public const string VERSION = "0.0.1";
+        public const string VERSION = "0.0.2";
 
+        public const string developerPrefix = "LJC";
+
+        public static ManualLogSource logger => instance?.Logger;
+        public static bool debug = true;
         public static PluginInfo pluginInfo { get; private set; }
         public static XenomorphMain instance { get; private set; }
         internal static AssetBundle assetBundle { get; private set; }

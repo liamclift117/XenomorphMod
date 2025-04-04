@@ -31,7 +31,7 @@ MonoBehaviour:
   - {fileID: 4482143185124402137}
   - {fileID: -4281966069817201292}
   - {fileID: 3654854446878902642}
-  QuickAccess: 0
+  QuickAccess: 1
   manifest: {fileID: 11400000, guid: 737021a7a7f3f4f47bf3f8a9abeea9d1, type: 2}
 --- !u!114 &3654854446878902642
 MonoBehaviour:

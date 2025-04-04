@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: -1881990681, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: Xenomorph
   m_EditorClassIdentifier: 
-  bodyPrefab: {fileID: 0}
-  displayPrefab: {fileID: 0}
+  bodyPrefab: {fileID: 6477234608091629248, guid: 92f904ff0a4b2a54c97562e7370c5ea3, type: 3}
+  displayPrefab: {fileID: 3472821138065378121, guid: 05f670cbb812b2445bb608240596edf9, type: 3}
   unlockableName: 
   unlockableDef: {fileID: 0}
-  displayNameToken: 
-  descriptionToken: 
-  outroFlavorToken: 
+  displayNameToken: Xenomorph
+  descriptionToken: An alien with acid for blood.
+  outroFlavorToken: And so it left, spreading fear to all life.
   mainEndingEscapeFailureFlavorToken: 
-  primaryColor: {r: 0, g: 0, b: 0, a: 0}
+  primaryColor: {r: 0.043379102, g: 0.008276968, b: 0.05660379, a: 1}
   desiredSortPosition: 0
   hidden: 0
